@@ -1,0 +1,35 @@
+#define BUZZER_PIN 5
+#define POT_PIN 39
+#define BUZZER_FREQ 2000
+#define RESOLUTION 8
+
+
+
+void setup() {
+  ledcAttach(BUZZER_PIN, BUZZER_FREQ, RESOLUTION);
+  Serial.begin(9600);
+
+}
+
+void loop() {
+
+  int value = analogRead(POT_PIN);
+  Serial.println(value);
+  // // put your main code here, to run repeatedly:
+
+  // ledcWrite(BUZZER_PIN, 32);
+  // delay(1000);
+  // // small sound
+
+  // ledcWrite(BUZZER_PIN, 64);
+  // delay(1000);
+  // //middle sound
+
+  // ledcWrite(BUZZER_PIN, 128);
+  // delay(1000);
+  // //large sound
+
+  // ledcWrite(BUZZER_PIN, 0);
+  // delay(1000);
+  // // turn off
+}
