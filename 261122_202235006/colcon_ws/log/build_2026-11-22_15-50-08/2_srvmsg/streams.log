@@ -1,0 +1,19 @@
+[0.657s] Invoking command in '/home/edu42/robot_navigation/colcon_ws/src/2_srvmsg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/2_srvmsg build --build-base /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/build install --record /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/install.log --install-scripts $base/lib/2_srvmsg --single-version-externally-managed install_data
+[0.827s] running egg_info
+[0.838s] writing ../../build/2_srvmsg/2_srvmsg.egg-info/PKG-INFO
+[0.838s] writing dependency_links to ../../build/2_srvmsg/2_srvmsg.egg-info/dependency_links.txt
+[0.838s] writing requirements to ../../build/2_srvmsg/2_srvmsg.egg-info/requires.txt
+[0.838s] writing top-level names to ../../build/2_srvmsg/2_srvmsg.egg-info/top_level.txt
+[0.861s] reading manifest file '../../build/2_srvmsg/2_srvmsg.egg-info/SOURCES.txt'
+[0.862s] writing manifest file '../../build/2_srvmsg/2_srvmsg.egg-info/SOURCES.txt'
+[0.862s] running build
+[0.862s] running build_py
+[0.862s] running install
+[0.866s] running install_lib
+[0.878s] running install_data
+[0.878s] running install_egg_info
+[0.890s] removing '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages/2_srvmsg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.890s] Copying ../../build/2_srvmsg/2_srvmsg.egg-info to /home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages/2_srvmsg-0.0.0-py3.12.egg-info
+[0.891s] running install_scripts
+[0.971s] writing list of installed files to '/home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/install.log'
+[0.990s] Invoked command in '/home/edu42/robot_navigation/colcon_ws/src/2_srvmsg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/2_srvmsg build --build-base /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/build install --record /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/install.log --install-scripts $base/lib/2_srvmsg --single-version-externally-managed install_data

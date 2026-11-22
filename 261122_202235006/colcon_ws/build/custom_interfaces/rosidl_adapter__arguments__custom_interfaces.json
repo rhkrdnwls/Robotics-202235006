@@ -1,0 +1,9 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/edu42/robot_navigation/colcon_ws/src/custom_interfaces:msg/Num.msg",
+    "/home/edu42/robot_navigation/colcon_ws/src/custom_interfaces:srv/AddTwoInts.srv",
+    "/home/edu42/robot_navigation/colcon_ws/src/custom_interfaces:msg/RobotPose.msg",
+    "/home/edu42/robot_navigation/colcon_ws/src/custom_interfaces:srv/MoveRobot.srv"
+  ]
+}

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/MoveRobot.srv
+// generated code does not contain a copyright notice
+
+#include "custom_interfaces/msg/RobotPose.idl"
+
+module custom_interfaces {
+  module srv {
+    struct MoveRobot_Request {
+      custom_interfaces::msg::RobotPose current_pose;
+
+      double distance;
+    };
+    struct MoveRobot_Response {
+      custom_interfaces::msg::RobotPose result_pose;
+
+      boolean success;
+    };
+  };
+};

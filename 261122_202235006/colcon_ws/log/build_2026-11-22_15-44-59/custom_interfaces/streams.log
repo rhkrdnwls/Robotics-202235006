@@ -1,0 +1,9 @@
+[0.291s] Invoking command in '/home/edu42/robot_navigation/colcon_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/edu42/robot_navigation/colcon_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces
+[0.298s] [31mCMake Error at CMakeLists.txt:2:
+[0.298s]   Parse error.  Expected "(", got newline with text "
+[0.298s] 
+[0.298s]   ".
+[0.298s] 
+[0.298s] [0m
+[0.298s] -- Configuring incomplete, errors occurred!
+[0.299s] Invoked command in '/home/edu42/robot_navigation/colcon_ws/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/edu42/robot_navigation/colcon_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces

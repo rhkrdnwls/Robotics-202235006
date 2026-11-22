@@ -1,0 +1,12 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/custom_interfaces__rosidl_generator_type_description"
+  "rosidl_generator_type_description/custom_interfaces/msg/Num.json"
+  "rosidl_generator_type_description/custom_interfaces/msg/RobotPose.json"
+  "rosidl_generator_type_description/custom_interfaces/srv/AddTwoInts.json"
+  "rosidl_generator_type_description/custom_interfaces/srv/MoveRobot.json"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/custom_interfaces__rosidl_generator_type_description.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

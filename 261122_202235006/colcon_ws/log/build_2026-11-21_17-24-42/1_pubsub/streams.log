@@ -1,0 +1,25 @@
+[0.504s] Invoking command in '/home/edu42/robot_navigation/colcon_ws/src/1_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu42/robot_navigation/colcon_ws/build/1_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/1_pubsub build --build-base /home/edu42/robot_navigation/colcon_ws/build/1_pubsub/build install --record /home/edu42/robot_navigation/colcon_ws/build/1_pubsub/install.log --install-scripts $base/lib/1_pubsub --single-version-externally-managed install_data
+[0.673s] running egg_info
+[0.684s] writing ../../build/1_pubsub/1_pubsub.egg-info/PKG-INFO
+[0.685s] writing dependency_links to ../../build/1_pubsub/1_pubsub.egg-info/dependency_links.txt
+[0.685s] writing requirements to ../../build/1_pubsub/1_pubsub.egg-info/requires.txt
+[0.685s] writing top-level names to ../../build/1_pubsub/1_pubsub.egg-info/top_level.txt
+[0.708s] reading manifest file '../../build/1_pubsub/1_pubsub.egg-info/SOURCES.txt'
+[0.708s] writing manifest file '../../build/1_pubsub/1_pubsub.egg-info/SOURCES.txt'
+[0.708s] running build
+[0.708s] running build_py
+[0.708s] copying 1_pubsub/listener.py -> /home/edu42/robot_navigation/colcon_ws/build/1_pubsub/build/lib/1_pubsub
+[0.708s] copying 1_pubsub/talker.py -> /home/edu42/robot_navigation/colcon_ws/build/1_pubsub/build/lib/1_pubsub
+[0.708s] running install
+[0.713s] running install_lib
+[0.724s] copying /home/edu42/robot_navigation/colcon_ws/build/1_pubsub/build/lib/1_pubsub/listener.py -> /home/edu42/robot_navigation/colcon_ws/install/1_pubsub/lib/python3.12/site-packages/1_pubsub
+[0.724s] copying /home/edu42/robot_navigation/colcon_ws/build/1_pubsub/build/lib/1_pubsub/talker.py -> /home/edu42/robot_navigation/colcon_ws/install/1_pubsub/lib/python3.12/site-packages/1_pubsub
+[0.724s] byte-compiling /home/edu42/robot_navigation/colcon_ws/install/1_pubsub/lib/python3.12/site-packages/1_pubsub/listener.py to listener.cpython-312.pyc
+[0.725s] byte-compiling /home/edu42/robot_navigation/colcon_ws/install/1_pubsub/lib/python3.12/site-packages/1_pubsub/talker.py to talker.cpython-312.pyc
+[0.725s] running install_data
+[0.725s] running install_egg_info
+[0.737s] removing '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/lib/python3.12/site-packages/1_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[0.737s] Copying ../../build/1_pubsub/1_pubsub.egg-info to /home/edu42/robot_navigation/colcon_ws/install/1_pubsub/lib/python3.12/site-packages/1_pubsub-0.0.0-py3.12.egg-info
+[0.738s] running install_scripts
+[0.816s] writing list of installed files to '/home/edu42/robot_navigation/colcon_ws/build/1_pubsub/install.log'
+[0.833s] Invoked command in '/home/edu42/robot_navigation/colcon_ws/src/1_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu42/robot_navigation/colcon_ws/build/1_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/1_pubsub build --build-base /home/edu42/robot_navigation/colcon_ws/build/1_pubsub/build install --record /home/edu42/robot_navigation/colcon_ws/build/1_pubsub/install.log --install-scripts $base/lib/1_pubsub --single-version-externally-managed install_data

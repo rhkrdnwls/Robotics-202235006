@@ -1,0 +1,4 @@
+[console_scripts]
+listener = 1_pubsub.listener:main
+processor = 1_pubsub.processor:main
+talker = 1_pubsub.talker:main

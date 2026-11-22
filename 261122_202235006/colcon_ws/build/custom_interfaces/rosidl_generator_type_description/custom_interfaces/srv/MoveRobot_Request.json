@@ -1,0 +1,76 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "custom_interfaces/srv/MoveRobot_Request",
+      "fields": [
+        {
+          "name": "current_pose",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_interfaces/msg/RobotPose"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "distance",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "custom_interfaces/msg/RobotPose",
+        "fields": [
+          {
+            "name": "x",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "y",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "theta",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "custom_interfaces/srv/MoveRobot_Request",
+      "hash_string": "RIHS01_396a30ae9dd91b66d79503041c61842dff7d5f9387691050538a3d885603b5fb"
+    },
+    {
+      "type_name": "custom_interfaces/msg/RobotPose",
+      "hash_string": "RIHS01_1b4082be026952a6c5e76a33a83682ab4084e7f26b5efe67e13b10f1b0e23cda"
+    }
+  ]
+}

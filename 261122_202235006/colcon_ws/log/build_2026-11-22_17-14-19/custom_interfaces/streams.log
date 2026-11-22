@@ -1,0 +1,342 @@
+[0.527s] Invoking command in '/home/edu42/robot_navigation/colcon_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edu42/robot_navigation/colcon_ws/build/custom_interfaces -- -j16 -l16
+[0.577s] -- Found ament_cmake: 2.5.7 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.711s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.714s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.792s] -- Found rosidl_adapter: 4.6.10 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.147s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.266s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.424s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.425s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.754s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.812s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.821s] -- Configuring done (1.3s)
+[1.896s] -- Generating done (0.1s)
+[1.910s] -- Build files have been written to: /home/edu42/robot_navigation/colcon_ws/build/custom_interfaces
+[1.984s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.985s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.010s] [  3%] Built target ament_cmake_python_copy_custom_interfaces
+[2.279s] running egg_info
+[2.283s] [  3%] Built target custom_interfaces__rosidl_generator_type_description
+[2.299s] writing custom_interfaces.egg-info/PKG-INFO
+[2.300s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[2.300s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[2.301s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.309s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.320s] [  6%] Built target custom_interfaces__rs
+[2.359s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[2.360s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[2.397s] [  6%] Built target ament_cmake_python_build_custom_interfaces_egg
+[2.767s] [  6%] Built target custom_interfaces__cpp
+[2.878s] [  7%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/add_two_ints__functions.c.o[0m
+[2.880s] [ 10%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/add_two_ints__type_support.c.o[0m
+[2.880s] [ 12%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/num__functions.c.o[0m
+[2.881s] [ 12%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/robot_pose__description.c.o[0m
+[2.882s] [ 13%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/num__type_support.c.o[0m
+[2.893s] [ 16%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/robot_pose__type_support.c.o[0m
+[2.894s] [ 16%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/num__description.c.o[0m
+[2.896s] [ 18%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/move_robot__description.c.o[0m
+[2.897s] [ 21%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/move_robot__functions.c.o[0m
+[2.898s] [ 21%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/add_two_ints__description.c.o[0m
+[2.901s] [ 23%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/move_robot__type_support.c.o[0m
+[2.906s] [ 24%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/robot_pose__functions.c.o[0m
+[3.027s] [ 26%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[3.136s] [ 26%] Built target custom_interfaces__rosidl_generator_c
+[3.181s] [ 27%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.183s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.184s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.185s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.186s] [ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.195s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.595s] [ 36%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/add_two_ints__type_support.cpp.o[0m
+[3.595s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/robot_pose__type_support.cpp.o[0m
+[3.599s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/num__type_support.cpp.o[0m
+[3.601s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/move_robot__type_support.cpp.o[0m
+[3.601s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/num__type_support.cpp.o[0m
+[3.606s] [ 44%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/move_robot__type_support.cpp.o[0m
+[3.607s] [ 46%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/robot_pose__type_support.cpp.o[0m
+[3.609s] [ 47%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/add_two_ints__type_support.cpp.o[0m
+[3.647s] [ 49%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/num__type_support.cpp.o[0m
+[3.647s] [ 52%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/add_two_ints__type_support.cpp.o[0m
+[3.648s] [ 52%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/robot_pose__type_support.cpp.o[0m
+[3.652s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/move_robot__type_support.cpp.o[0m
+[3.671s] [ 55%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/num__type_support.c.o[0m
+[3.671s] [ 56%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/add_two_ints__type_support.c.o[0m
+[3.672s] [ 58%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/robot_pose__type_support.c.o[0m
+[3.675s] [ 60%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/move_robot__type_support.c.o[0m
+[3.688s] [ 61%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[3.760s] [ 61%] Built target custom_interfaces__rosidl_typesupport_c
+[3.764s] [ 63%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.793s] [ 67%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/robot_pose__type_support.cpp.o[0m
+[3.793s] [ 67%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[3.793s] [ 67%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[3.793s] [ 69%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/move_robot__type_support.cpp.o[0m
+[3.829s] [ 69%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[3.910s] [ 70%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/robot_pose__type_support_c.cpp.o[0m
+[3.911s] [ 72%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[3.911s] [ 73%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/move_robot__type_support_c.cpp.o[0m
+[3.911s] [ 75%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[4.161s] [ 76%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[4.244s] [ 76%] Built target custom_interfaces__rosidl_typesupport_cpp
+[4.516s] [ 78%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.607s] [ 78%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[4.614s] [ 80%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.660s] [ 81%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.686s] [ 81%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[4.808s] [ 81%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.882s] [ 81%] Built target custom_interfaces
+[4.978s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.662s] [ 83%] Built target custom_interfaces__py
+[5.751s] [ 84%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_add_two_ints_s.c.o[0m
+[5.753s] [ 86%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_robot_pose_s.c.o[0m
+[5.757s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_num_s.c.o[0m
+[5.759s] [ 89%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_move_robot_s.c.o[0m
+[5.947s] [ 90%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_py.so[0m
+[6.117s] [ 90%] Built target custom_interfaces__rosidl_generator_py
+[6.198s] [ 92%] [32mBuilding C object CMakeFiles/custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.202s] [ 93%] [32mBuilding C object CMakeFiles/custom_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.217s] [ 95%] [32mBuilding C object CMakeFiles/custom_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.372s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so[0m
+[6.377s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[6.380s] [100%] [32m[1mLinking C shared module rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.457s] [100%] Built target custom_interfaces_s__rosidl_typesupport_c
+[6.468s] [100%] Built target custom_interfaces_s__rosidl_typesupport_introspection_c
+[6.468s] [100%] Built target custom_interfaces_s__rosidl_typesupport_fastrtps_c
+[6.519s] Invoked command in '/home/edu42/robot_navigation/colcon_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edu42/robot_navigation/colcon_ws/build/custom_interfaces -- -j16 -l16
+[6.564s] Invoking command in '/home/edu42/robot_navigation/colcon_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edu42/robot_navigation/colcon_ws/build/custom_interfaces
+[6.602s] -- Install configuration: ""
+[6.604s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[6.605s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/msg/Num.json
+[6.606s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInts.json
+[6.607s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/msg/RobotPose.json
+[6.607s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/srv/MoveRobot.json
+[6.608s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[6.610s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[6.610s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[6.610s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__type_support.h
+[6.612s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__type_support.c
+[6.613s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__struct.h
+[6.613s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__description.c
+[6.614s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__description.c
+[6.615s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__functions.h
+[6.615s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__type_support.c
+[6.616s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__struct.h
+[6.616s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__type_support.h
+[6.617s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__functions.h
+[6.617s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__functions.c
+[6.618s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__functions.c
+[6.618s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/move_robot.h
+[6.618s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/add_two_ints.h
+[6.618s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[6.619s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[6.621s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__functions.h
+[6.622s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__struct.h
+[6.622s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__description.c
+[6.622s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__type_support.h
+[6.623s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__type_support.c
+[6.623s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__struct.h
+[6.624s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__type_support.h
+[6.624s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__description.c
+[6.624s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__functions.c
+[6.624s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__functions.h
+[6.624s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__functions.c
+[6.625s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__type_support.c
+[6.625s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.625s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/robot_pose.h
+[6.625s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/num.h
+[6.626s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[6.626s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[6.626s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[6.626s] -- Set non-toolchain portion of runtime path of "/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[6.626s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[6.626s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[6.627s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[6.627s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[6.627s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_c.h
+[6.627s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[6.627s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[6.628s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[6.628s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h
+[6.628s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.628s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.628s] -- Set non-toolchain portion of runtime path of "/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.628s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[6.629s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[6.629s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[6.629s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__type_support.c
+[6.629s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[6.629s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__type_support.c
+[6.629s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_c.h
+[6.630s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[6.630s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[6.630s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__type_support.c
+[6.630s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[6.630s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__type_support.c
+[6.630s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_c.h
+[6.630s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.631s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[6.632s] -- Set non-toolchain portion of runtime path of "/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.632s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[6.632s] -- Set non-toolchain portion of runtime path of "/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[6.632s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[6.633s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[6.633s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/add_two_ints.hpp
+[6.633s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[6.633s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__builder.hpp
+[6.633s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__builder.hpp
+[6.633s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__traits.hpp
+[6.634s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__type_support.hpp
+[6.634s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__struct.hpp
+[6.634s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__type_support.hpp
+[6.634s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__struct.hpp
+[6.634s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__traits.hpp
+[6.634s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/move_robot.hpp
+[6.634s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[6.635s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/robot_pose.hpp
+[6.635s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[6.635s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__traits.hpp
+[6.635s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__struct.hpp
+[6.635s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__type_support.hpp
+[6.635s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__type_support.hpp
+[6.635s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__struct.hpp
+[6.635s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__builder.hpp
+[6.636s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__traits.hpp
+[6.636s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__builder.hpp
+[6.636s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.636s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/num.hpp
+[6.636s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[6.636s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[6.636s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[6.636s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[6.637s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[6.637s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[6.637s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[6.637s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.637s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[6.637s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps
+[6.638s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[6.638s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[6.638s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.638s] -- Set non-toolchain portion of runtime path of "/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.638s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[6.638s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[6.639s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[6.639s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__type_support.cpp
+[6.639s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[6.639s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__rosidl_typesupport_introspection_cpp.hpp
+[6.639s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/move_robot__type_support.cpp
+[6.639s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[6.639s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[6.639s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__type_support.cpp
+[6.640s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__type_support.cpp
+[6.640s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_cpp.hpp
+[6.640s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[6.640s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.640s] -- Set non-toolchain portion of runtime path of "/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.640s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[6.640s] -- Set non-toolchain portion of runtime path of "/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.640s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[6.640s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[6.641s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info
+[6.641s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[6.641s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[6.641s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[6.641s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[6.641s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces
+[6.641s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/srv
+[6.641s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/srv/_add_two_ints_s.c
+[6.641s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/srv/_move_robot.py
+[6.641s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/srv/__init__.py
+[6.641s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/srv/_move_robot_s.c
+[6.642s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/srv/_add_two_ints.py
+[6.642s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so
+[6.642s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/__init__.py
+[6.642s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg
+[6.642s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/_num_s.c
+[6.642s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/_num.py
+[6.642s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/_robot_pose.py
+[6.642s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/__init__.py
+[6.642s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/_robot_pose_s.c
+[6.642s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[6.642s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[6.642s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[6.643s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.643s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.700s] Listing '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces'...
+[6.700s] Compiling '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/__init__.py'...
+[6.701s] Listing '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg'...
+[6.701s] Compiling '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/__init__.py'...
+[6.701s] Compiling '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/_num.py'...
+[6.701s] Compiling '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/msg/_robot_pose.py'...
+[6.701s] Listing '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/srv'...
+[6.701s] Compiling '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/srv/__init__.py'...
+[6.701s] Compiling '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/srv/_add_two_ints.py'...
+[6.701s] Compiling '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/srv/_move_robot.py'...
+[6.707s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[6.707s] -- Set non-toolchain portion of runtime path of "/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[6.707s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[6.707s] -- Set non-toolchain portion of runtime path of "/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[6.708s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so
+[6.708s] -- Set non-toolchain portion of runtime path of "/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.so" to ""
+[6.708s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[6.708s] -- Set non-toolchain portion of runtime path of "/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[6.708s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/rust
+[6.708s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/rust/src
+[6.709s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/rust/src/srv
+[6.709s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/rust/src/srv/rmw.rs
+[6.709s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/rust/src/lib.rs
+[6.709s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/rust/src/srv.rs
+[6.709s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/rust/src/msg
+[6.709s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/rust/src/msg/rmw.rs
+[6.709s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/rust/src/msg.rs
+[6.709s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/rust/Cargo.toml
+[6.709s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/rust/build.rs
+[6.709s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/msg/Num.idl
+[6.709s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInts.idl
+[6.709s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/msg/RobotPose.idl
+[6.709s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/srv/MoveRobot.idl
+[6.709s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/msg/Num.msg
+[6.710s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/srv/AddTwoInts.srv
+[6.710s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/msg/RobotPose.msg
+[6.710s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/srv/MoveRobot.srv
+[6.710s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[6.710s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[6.710s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[6.710s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[6.710s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[6.710s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[6.710s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[6.710s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[6.710s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[6.710s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[6.710s] -- Installing: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[6.710s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[6.710s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[6.711s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.711s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.711s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.711s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.711s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.711s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[6.711s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.711s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[6.711s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.711s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.711s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.711s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.711s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[6.711s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.712s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[6.712s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.712s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.712s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.712s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.712s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.712s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.712s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.712s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.712s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[6.712s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[6.712s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[6.712s] -- Up-to-date: /home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[6.713s] Invoked command in '/home/edu42/robot_navigation/colcon_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edu42/robot_navigation/colcon_ws/build/custom_interfaces

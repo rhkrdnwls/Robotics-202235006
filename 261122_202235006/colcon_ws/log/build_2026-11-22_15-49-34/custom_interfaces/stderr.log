@@ -1,0 +1,19 @@
+[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake:40 (add_custom_target):
+  The target name "{custom_interfaces}_uninstall" is reserved or not valid
+  for certain CMake features, such as generator expressions, and may result
+  in undefined behavior.
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:4 (find_package)
+
+[0m
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+  rosidl_generate_interfaces() the passed file 'msg/{Num}.msg' doesn't exist
+  relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/edu42/robot_navigation/colcon_ws/src/custom_interfaces'
+Call Stack (most recent call first):
+  CMakeLists.txt:7 (rosidl_generate_interfaces)
+
+[0m

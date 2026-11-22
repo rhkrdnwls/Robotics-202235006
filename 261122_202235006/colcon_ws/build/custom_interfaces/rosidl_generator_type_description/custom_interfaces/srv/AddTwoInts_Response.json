@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "custom_interfaces/srv/AddTwoInts_Response",
+      "fields": [
+        {
+          "name": "sum",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_interfaces/msg/Num"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "custom_interfaces/msg/Num",
+        "fields": [
+          {
+            "name": "my_num",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "custom_interfaces/srv/AddTwoInts_Response",
+      "hash_string": "RIHS01_a7e520ef8f0ebd5d5b8f380abbb88da522f6fbef23a7131449b5258bd84aa1e9"
+    },
+    {
+      "type_name": "custom_interfaces/msg/Num",
+      "hash_string": "RIHS01_0370d80eb2d56d2ed0316ff55b59c3103a97dcc5b1aa90796407fa71ac46ea75"
+    }
+  ]
+}

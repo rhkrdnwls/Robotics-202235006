@@ -1,0 +1,37 @@
+[0.701s] Invoking command in '/home/edu42/robot_navigation/colcon_ws/src/2_srvmsg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/2_srvmsg build --build-base /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/build install --record /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/install.log --install-scripts $base/lib/2_srvmsg --single-version-externally-managed install_data
+[0.868s] running egg_info
+[0.868s] creating ../../build/2_srvmsg/2_srvmsg.egg-info
+[0.879s] writing ../../build/2_srvmsg/2_srvmsg.egg-info/PKG-INFO
+[0.879s] writing dependency_links to ../../build/2_srvmsg/2_srvmsg.egg-info/dependency_links.txt
+[0.879s] writing requirements to ../../build/2_srvmsg/2_srvmsg.egg-info/requires.txt
+[0.880s] writing top-level names to ../../build/2_srvmsg/2_srvmsg.egg-info/top_level.txt
+[0.880s] writing manifest file '../../build/2_srvmsg/2_srvmsg.egg-info/SOURCES.txt'
+[0.902s] reading manifest file '../../build/2_srvmsg/2_srvmsg.egg-info/SOURCES.txt'
+[0.903s] writing manifest file '../../build/2_srvmsg/2_srvmsg.egg-info/SOURCES.txt'
+[0.903s] running build
+[0.903s] running build_py
+[0.903s] creating /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/build
+[0.903s] creating /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/build/lib
+[0.903s] creating /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/build/lib/2_srvmsg
+[0.904s] copying 2_srvmsg/add_ints_server.py -> /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/build/lib/2_srvmsg
+[0.904s] copying 2_srvmsg/add_ints_client.py -> /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/build/lib/2_srvmsg
+[0.904s] copying 2_srvmsg/__init__.py -> /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/build/lib/2_srvmsg
+[0.904s] running install
+[0.907s] running install_lib
+[0.919s] creating /home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages/2_srvmsg
+[0.919s] copying /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/build/lib/2_srvmsg/add_ints_server.py -> /home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages/2_srvmsg
+[0.919s] copying /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/build/lib/2_srvmsg/add_ints_client.py -> /home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages/2_srvmsg
+[0.919s] copying /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/build/lib/2_srvmsg/__init__.py -> /home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages/2_srvmsg
+[0.919s] byte-compiling /home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages/2_srvmsg/add_ints_server.py to add_ints_server.cpython-312.pyc
+[0.919s] byte-compiling /home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages/2_srvmsg/add_ints_client.py to add_ints_client.cpython-312.pyc
+[0.920s] byte-compiling /home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages/2_srvmsg/__init__.py to __init__.cpython-312.pyc
+[0.920s] running install_data
+[0.920s] creating /home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/ament_index
+[0.920s] creating /home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/ament_index/resource_index
+[0.920s] creating /home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/ament_index/resource_index/packages
+[0.920s] copying resource/2_srvmsg -> /home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/ament_index/resource_index/packages
+[0.920s] copying package.xml -> /home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/2_srvmsg
+[0.921s] running install_egg_info
+[0.932s] Copying ../../build/2_srvmsg/2_srvmsg.egg-info to /home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages/2_srvmsg-0.0.0-py3.12.egg-info
+[0.933s] running install_scripts
+[1.012s] writing list of installed files to '/home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/install.log'

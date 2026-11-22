@@ -1,0 +1,259 @@
+[0.119s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.119s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7332ccd9d970>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7332ccd9d6a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7332ccd9d6a0>>, mixin_verb=('build',))
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.161s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/edu42/robot_navigation/colcon_ws'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/1_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/1_pubsub) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/1_pubsub) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/1_pubsub) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/1_pubsub) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/1_pubsub) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/1_pubsub) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/1_pubsub) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/1_pubsub) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/1_pubsub' with type 'ros.ament_python' and name '1_pubsub'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/2_srvmsg) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/2_srvmsg) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/2_srvmsg) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/2_srvmsg) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/2_srvmsg) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/2_srvmsg) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/2_srvmsg) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/2_srvmsg) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/2_srvmsg) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/2_srvmsg' with type 'ros.ament_python' and name '2_srvmsg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.228s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/edu42/robot_navigation/colcon_ws/install
+[0.232s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 395 installed packages in /opt/ros/jazzy
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.309s] Level 5:colcon.colcon_core.verb:set package '1_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package '1_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '1_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '1_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '1_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '1_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '1_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '1_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '1_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package '1_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edu42/robot_navigation/colcon_ws/build/1_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub', 'merge_install': False, 'path': '/home/edu42/robot_navigation/colcon_ws/src/1_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package '2_srvmsg' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '2_srvmsg' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '2_srvmsg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '2_srvmsg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '2_srvmsg' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '2_srvmsg' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '2_srvmsg' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '2_srvmsg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package '2_srvmsg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package '2_srvmsg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edu42/robot_navigation/colcon_ws/build/2_srvmsg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg', 'merge_install': False, 'path': '/home/edu42/robot_navigation/colcon_ws/src/2_srvmsg', 'symlink_install': False, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edu42/robot_navigation/colcon_ws/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces', 'merge_install': False, 'path': '/home/edu42/robot_navigation/colcon_ws/src/custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.311s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.312s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.312s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/edu42/robot_navigation/colcon_ws/src/1_pubsub' with build type 'ament_python'
+[0.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('1_pubsub', 'ament_prefix_path')
+[0.314s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/share/1_pubsub/hook/ament_prefix_path.ps1'
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/share/1_pubsub/hook/ament_prefix_path.dsv'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/share/1_pubsub/hook/ament_prefix_path.sh'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.320s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/edu42/robot_navigation/colcon_ws/src/2_srvmsg' with build type 'ament_python'
+[0.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('2_srvmsg', 'ament_prefix_path')
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/2_srvmsg/hook/ament_prefix_path.ps1'
+[0.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/2_srvmsg/hook/ament_prefix_path.dsv'
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/2_srvmsg/hook/ament_prefix_path.sh'
+[0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/edu42/robot_navigation/colcon_ws/src/custom_interfaces' with build type 'ament_cmake'
+[0.326s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/edu42/robot_navigation/colcon_ws/src/custom_interfaces'
+[0.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.652s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/edu42/robot_navigation/colcon_ws/src/1_pubsub'
+[0.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.652s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.920s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/edu42/robot_navigation/colcon_ws/src/2_srvmsg'
+[0.920s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.920s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu42/robot_navigation/colcon_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edu42/robot_navigation/colcon_ws/build/custom_interfaces -- -j16 -l16
+[1.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu42/robot_navigation/colcon_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edu42/robot_navigation/colcon_ws/build/custom_interfaces -- -j16 -l16
+[1.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu42/robot_navigation/colcon_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edu42/robot_navigation/colcon_ws/build/custom_interfaces
+[1.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[1.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu42/robot_navigation/colcon_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edu42/robot_navigation/colcon_ws/build/custom_interfaces
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces' for CMake module files
+[1.492s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces' for CMake config files
+[1.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[1.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib'
+[1.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[1.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/bin'
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages'
+[1.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[1.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/bin'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[1.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[1.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces' for CMake module files
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces' for CMake config files
+[1.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib'
+[1.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[1.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[1.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/bin'
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/lib/python3.12/site-packages'
+[1.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'pythonpath')
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.ps1'
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.dsv'
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/hook/pythonpath.sh'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/bin'
+[1.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[1.508s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[1.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[1.543s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: init_catalog, update_catalog, test, easy_install, register, upload, install_headers, extract_messages, build, build_clib, build_ext, bdist_rpm, build_py, dist_info, install_lib, saveopts, install_data, sdist, bdist_egg, develop, bdist_dumb, clean, install_scripts, install_egg_info, symlink_data, check, editable_wheel, install, setopt, upload_docs, alias, bdist, rotate, build_scripts, egg_info, compile_catalog
+[1.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu42/robot_navigation/colcon_ws/src/2_srvmsg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/2_srvmsg build --build-base /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/build install --record /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/install.log --install-scripts $base/lib/2_srvmsg --single-version-externally-managed install_data
+[1.546s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: init_catalog, update_catalog, test, easy_install, register, upload, install_headers, extract_messages, build, build_clib, build_ext, bdist_rpm, build_py, dist_info, install_lib, saveopts, install_data, sdist, bdist_egg, develop, bdist_dumb, clean, install_scripts, install_egg_info, symlink_data, check, editable_wheel, install, setopt, upload_docs, alias, bdist, rotate, build_scripts, egg_info, compile_catalog
+[1.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu42/robot_navigation/colcon_ws/src/1_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu42/robot_navigation/colcon_ws/build/1_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/1_pubsub build --build-base /home/edu42/robot_navigation/colcon_ws/build/1_pubsub/build install --record /home/edu42/robot_navigation/colcon_ws/build/1_pubsub/install.log --install-scripts $base/lib/1_pubsub --single-version-externally-managed install_data
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub' for CMake module files
+[2.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu42/robot_navigation/colcon_ws/src/1_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu42/robot_navigation/colcon_ws/build/1_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/1_pubsub build --build-base /home/edu42/robot_navigation/colcon_ws/build/1_pubsub/build install --record /home/edu42/robot_navigation/colcon_ws/build/1_pubsub/install.log --install-scripts $base/lib/1_pubsub --single-version-externally-managed install_data
+[2.121s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub' for CMake config files
+[2.122s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/lib'
+[2.122s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/bin'
+[2.122s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/lib/pkgconfig/1_pubsub.pc'
+[2.122s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/lib/python3.12/site-packages'
+[2.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('1_pubsub', 'pythonpath')
+[2.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/share/1_pubsub/hook/pythonpath.ps1'
+[2.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/share/1_pubsub/hook/pythonpath.dsv'
+[2.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/share/1_pubsub/hook/pythonpath.sh'
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/bin'
+[2.124s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(1_pubsub)
+[2.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/share/1_pubsub/package.ps1'
+[2.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/share/1_pubsub/package.dsv'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/share/1_pubsub/package.sh'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/share/1_pubsub/package.bash'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/share/1_pubsub/package.zsh'
+[2.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu42/robot_navigation/colcon_ws/install/1_pubsub/share/colcon-core/packages/1_pubsub)
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg' for CMake module files
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg' for CMake config files
+[2.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu42/robot_navigation/colcon_ws/src/2_srvmsg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/2_srvmsg build --build-base /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/build install --record /home/edu42/robot_navigation/colcon_ws/build/2_srvmsg/install.log --install-scripts $base/lib/2_srvmsg --single-version-externally-managed install_data
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/bin'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/pkgconfig/2_srvmsg.pc'
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/lib/python3.12/site-packages'
+[2.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('2_srvmsg', 'pythonpath')
+[2.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/2_srvmsg/hook/pythonpath.ps1'
+[2.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/2_srvmsg/hook/pythonpath.dsv'
+[2.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/2_srvmsg/hook/pythonpath.sh'
+[2.131s] Level 1:colcon.colcon_core.environment:checking '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/bin'
+[2.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(2_srvmsg)
+[2.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/2_srvmsg/package.ps1'
+[2.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/2_srvmsg/package.dsv'
+[2.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/2_srvmsg/package.sh'
+[2.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/2_srvmsg/package.bash'
+[2.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/2_srvmsg/package.zsh'
+[2.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu42/robot_navigation/colcon_ws/install/2_srvmsg/share/colcon-core/packages/2_srvmsg)
+[2.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.134s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.141s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.162s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.163s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edu42/robot_navigation/colcon_ws/install/local_setup.ps1'
+[2.164s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/edu42/robot_navigation/colcon_ws/install/_local_setup_util_ps1.py'
+[2.166s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edu42/robot_navigation/colcon_ws/install/setup.ps1'
+[2.168s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edu42/robot_navigation/colcon_ws/install/local_setup.sh'
+[2.169s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/edu42/robot_navigation/colcon_ws/install/_local_setup_util_sh.py'
+[2.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edu42/robot_navigation/colcon_ws/install/setup.sh'
+[2.171s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edu42/robot_navigation/colcon_ws/install/local_setup.bash'
+[2.172s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edu42/robot_navigation/colcon_ws/install/setup.bash'
+[2.174s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edu42/robot_navigation/colcon_ws/install/local_setup.zsh'
+[2.175s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edu42/robot_navigation/colcon_ws/install/setup.zsh'

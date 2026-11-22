@@ -1,0 +1,27 @@
+[0.292s] Invoking command in '/home/edu42/robot_navigation/colcon_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/edu42/robot_navigation/colcon_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces
+[0.301s] -- Found ament_cmake: 2.5.7 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.467s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake:40 (add_custom_target):
+[0.467s]   The target name "{custom_interfaces}_uninstall" is reserved or not valid
+[0.467s]   for certain CMake features, such as generator expressions, and may result
+[0.467s]   in undefined behavior.
+[0.467s] Call Stack (most recent call first):
+[0.467s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.467s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.467s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.467s]   CMakeLists.txt:4 (find_package)
+[0.468s] 
+[0.468s] [0m
+[0.471s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.472s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.497s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.517s] -- Found rosidl_adapter: 4.6.10 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.519s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.519s]   rosidl_generate_interfaces() the passed file 'msg/{Num}.msg' doesn't exist
+[0.519s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.519s]   '/home/edu42/robot_navigation/colcon_ws/src/custom_interfaces'
+[0.519s] Call Stack (most recent call first):
+[0.519s]   CMakeLists.txt:7 (rosidl_generate_interfaces)
+[0.519s] 
+[0.519s] [0m
+[0.519s] -- Configuring incomplete, errors occurred!
+[0.523s] Invoked command in '/home/edu42/robot_navigation/colcon_ws/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu42/robot_navigation/colcon_ws/install/1_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/edu42/robot_navigation/colcon_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/edu42/robot_navigation/colcon_ws/install/custom_interfaces
